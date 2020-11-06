@@ -1,0 +1,15 @@
+package fundamentos;
+
+public class TipoPrimitivo {
+	public static void main(String[] args) {
+		byte anosDeEmpresa = 23;
+		short numeroDeViagens = 32767;
+		int id = 25564;
+		long pontosAcumulados = 254568223;		
+		
+		System.out.println(anosDeEmpresa);
+		System.out.println(numeroDeViagens);
+		System.out.println(id);
+		System.out.println(pontosAcumulados);
+	}
+}

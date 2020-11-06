@@ -1,0 +1,16 @@
+package fundamentos;
+
+public class TemperaturaCelsiusToFahrenheit {
+	
+	public static void main(String[] args) {
+		
+		double temperaturaC = 0;
+		double temperaturaF;
+		
+		temperaturaF = temperaturaC * 1.8 + 32;
+		
+		System.out.println("Temperatura Celcius: " + temperaturaC + "\nTemperatura Fahrenheit: " + temperaturaF);
+		
+	}
+
+}

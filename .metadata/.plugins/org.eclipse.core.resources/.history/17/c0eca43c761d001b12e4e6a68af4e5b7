@@ -1,0 +1,21 @@
+package fundamentos;
+
+import java.util.Date;
+
+//import java.util.Date;
+
+
+
+
+
+public class EnsinoImport {
+	public static void main(String[] args) {
+		String b = "Bom dia mundo!!";
+		
+		System.out.println(b);
+		
+		Date d = new Date();
+		//System.out.println(d);
+		
+	}
+}

@@ -1,0 +1,18 @@
+package fundamentos;
+
+import java.util.Date;
+
+import javax.swing.JButton;
+
+
+
+public class EnsinoImport {
+	public static void main(String[] args) {
+		
+		Date d = new Date();
+		System.out.println(d);
+	
+		JButton botao = new JButton();
+		
+	}
+}

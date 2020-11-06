@@ -1,0 +1,14 @@
+package fundamentos;
+
+public class Wrapper {
+	public static void main(String[] args) {
+		
+		Byte b = 1; //Tipo primitivo é byte
+		Short s = 1000; // Tipo primitivo é o short
+		Integer i = 10000; // Tipo primitivo é o Int
+		Long l = 100000L; // Tipo primitivo é o long
+		
+		System.out.println(b.byteValue());
+		
+	}
+}

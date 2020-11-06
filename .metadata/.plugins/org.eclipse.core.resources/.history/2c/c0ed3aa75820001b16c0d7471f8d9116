@@ -1,0 +1,20 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class QuadradoCubo {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		double valor = entrada.nextDouble();
+		double quadrado = Math.pow(valor, 2);
+		double cubo = Math.pow(valor, 3);
+		
+		System.out.printf("O %.f ao quadrado é %.f e %.f elevado ao cubo.", valor, quadrado, cubo);
+		
+		entrada.close();
+		
+	}
+}
