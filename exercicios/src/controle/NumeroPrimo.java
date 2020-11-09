@@ -8,8 +8,7 @@ public class NumeroPrimo {
 		Scanner entrada = new Scanner(System.in);
 		numero = entrada.nextInt();
 		limitador = (int) Math.sqrt(numero);
-		//limitador = (int) numero/2;
-		System.out.println("valor de limitador: " + limitador);
+		
 		for (int i = 2; i <= limitador; i++) {
 			if(numero%i == 0) {
 				naoprimo = 1;
@@ -22,5 +21,4 @@ public class NumeroPrimo {
 			System.out.println("Valor não é primo");
 		}
 	}
-
 }
