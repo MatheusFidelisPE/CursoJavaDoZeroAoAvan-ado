@@ -1,4 +1,4 @@
-package classe;
+package conclusaomoduloclasseobjetos;
 
 public class Jantar {
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Jantar {
 		Comida spaghetti = new Comida("Macarrão", 0.250);
 		Comida meat = new Comida("Carne bovina", 0.200);
 		
-		pessoa1.pesoDuranteJantar();
+		
 		pessoa1.comendo(spaghetti);
 		pessoa1.pesoDuranteJantar();
 		pessoa1.comendo(meat);

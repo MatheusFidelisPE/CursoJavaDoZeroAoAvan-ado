@@ -1,4 +1,4 @@
-package classe;
+package conclusaomoduloclasseobjetos;
 
 public class Pessoa {
 	String nome;
