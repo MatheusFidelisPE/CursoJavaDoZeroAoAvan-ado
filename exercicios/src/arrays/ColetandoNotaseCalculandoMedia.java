@@ -23,6 +23,6 @@ public class ColetandoNotaseCalculandoMedia {
 			somaNotas += nota;
 		}
 		System.out.printf("Notas: %s\nMédia: %.2f", Arrays.toString(notas), somaNotas / notas.length);
-	
+		entrada.close();
 	}
 }
