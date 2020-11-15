@@ -1,5 +1,6 @@
 package arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Matrix {
@@ -28,7 +29,10 @@ public class Matrix {
 				notasTotais += notasDaTurma[i][j];
 			}
 		}
-		System.out.println(notasTotais / (numeroDeAlunos * qteNotas));
+		for(double notas[]: notasDaTurma) {
+			System.out.println(Arrays.toString(notas));
+		}
+		System.out.println("Média: " + notasTotais / (numeroDeAlunos * qteNotas));
 		entrada.close();
 	}
 }
