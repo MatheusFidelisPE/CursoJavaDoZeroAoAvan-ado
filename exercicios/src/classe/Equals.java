@@ -2,7 +2,7 @@ package classe;
 
 import java.util.Date;
 
-public class EqualsHashcode {
+public class Equals {
 
 	public static void main(String[] args) {
 		Usuario u1 = new Usuario();
@@ -13,11 +13,11 @@ public class EqualsHashcode {
 		u2.nome = "Pedro Silva";
 		u2.email = "pedro.silva@ezemail.com.br";
 		
-		System.out.println(u1 == u2);
+		//System.out.println(u1 == u2);
 		System.out.println(u1.equals(u2));
 		
 		System.out.println(u2.equals(u1));
 		
-		System.out.println(u2.equals(new Date()));
+		//System.out.println(u2.equals(new Date()));
 	}
 }

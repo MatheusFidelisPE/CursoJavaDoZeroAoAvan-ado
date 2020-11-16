@@ -4,6 +4,7 @@ import java.util.HashSet;
 
 public class ConjuntoBaguncado {
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		HashSet conjunto = new HashSet();
 		

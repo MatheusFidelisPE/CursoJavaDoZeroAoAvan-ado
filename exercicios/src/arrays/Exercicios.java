@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-public class Array {
+public class Exercicios {
 	public static void main(String[] args) {
 		//Programa para calcular média de notas de alunos usando arrays
 		
@@ -26,11 +26,20 @@ public class Array {
 		double notasAlunoB[] = {5.6,9.5,10};
 		double totalNotasAlunoB = 0;
 		System.out.println(Arrays.toString(notasAlunoB));
-		
+
 		for (int i = 0; i < notasAlunoB.length; i++) {
 			totalNotasAlunoB += notasAlunoB[i];			
 		}
 		System.out.println(totalNotasAlunoB / notasAlunoB.length);
+		int notasAlunosTurma[][] = new int[3][2];
 		
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 2; j++) {
+				notasAlunosTurma[i][j] = i*2+ j*2;
+			}
+		}
+		for(int notasAluno[]: notasAlunosTurma) {
+			System.out.println(Arrays.toString(notasAluno));
+		}
 	}
 }
