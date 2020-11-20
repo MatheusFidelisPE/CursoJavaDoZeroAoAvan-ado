@@ -1,0 +1,19 @@
+package oo.hierarquia;
+
+public class Heroi extends Jogador{ //extends informa que esta classe é uma classe filha de Jogador
+	boolean atacarOponente(Jogador oponente) {
+		int deltaX = Math.abs(x - oponente.x);
+		int deltaY = Math.abs(y - oponente.y);
+		
+		if(deltaX == 0 && deltaY == 1) {
+			oponente.vida -= 20;
+			return true;
+		}
+		else if(deltaY == 0 && deltaX == 1) {
+			oponente.vida -= 20;
+			return true;
+		}
+		return false;
+		
+	}
+}

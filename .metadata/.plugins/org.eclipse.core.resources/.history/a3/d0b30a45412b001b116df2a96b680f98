@@ -1,0 +1,27 @@
+package oo.hierarquia.desafio;
+
+public class Carro {
+	
+	double velocidadeAtual;
+	
+	boolean acelerar() {
+		this.velocidadeAtual += 5;
+		return true;
+	}
+	boolean frenar() {
+		if(velocidadeAtual >= 5) {
+			velocidadeAtual -= 5;
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	@Override
+	public String toString() {
+		String velocidade;
+		
+		velocidade = String.format("Velocidade Atual: %.0f", velocidadeAtual);
+		return velocidade;
+	}
+}
