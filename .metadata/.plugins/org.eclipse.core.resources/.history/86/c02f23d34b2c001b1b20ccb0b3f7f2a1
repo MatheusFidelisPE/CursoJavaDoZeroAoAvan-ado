@@ -1,0 +1,28 @@
+package oo.composicao;
+
+public class CarroTeste {
+	
+	public static void main(String[] args) {
+		Carro carro = new Carro();
+		
+		System.out.println( "O carro está ligado: "+ carro.estaLigado());
+		System.out.println("Giro Motor: " + carro.motor.girosMotor());
+		carro.acelerar();
+		System.out.println("Giro Motor: " + carro.motor.girosMotor());
+		carro.ligarCarro();
+		System.out.println("Motor está ligado? " + carro.motor.ligado);
+		carro.acelerar();
+		carro.acelerar();
+		carro.acelerar();
+		System.out.println("Giro Motor: " +  carro.motor.girosMotor());
+		carro.frenar();
+		carro.frenar();
+		System.out.println("Giro Motor: " + carro.motor.girosMotor());
+		carro.desligarCarro();
+		System.out.println("Giro Motor: " + carro.motor.girosMotor());
+		carro.ligarCarro();
+		System.out.println("Giro Motor: " + carro.motor.girosMotor());
+		System.out.println(carro.motor.carro.motor.carro.motor.coeficienteAceleracao);
+		
+	}
+}
