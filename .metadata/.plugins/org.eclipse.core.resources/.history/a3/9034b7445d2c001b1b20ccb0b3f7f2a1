@@ -17,7 +17,7 @@ public class Pessoa {
 	void comer(Comida food) {
 		this.peso += food.peso;
 	}
-	private double getPeso() {
+	double getPeso() {
 		return peso;
 	}
 	public String toString() {
