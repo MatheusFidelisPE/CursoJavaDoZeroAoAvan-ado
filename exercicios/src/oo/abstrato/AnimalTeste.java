@@ -22,6 +22,5 @@ public class AnimalTeste {
 		System.out.println(teste.a2.habitatNatural("Casas"));
 		System.out.println(teste.a2.mamar());
 		System.out.println(teste.a3.nome("Leonardo"));
-		
 	}
 }
