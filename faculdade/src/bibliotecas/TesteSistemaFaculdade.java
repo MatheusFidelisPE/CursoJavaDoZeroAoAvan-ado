@@ -11,6 +11,8 @@ public class TesteSistemaFaculdade {
 		al1.adicionarLivroAlugado("Historia da arte");
 		al1.livrosAlugados();
 		al1.devolverLivroAlugado("Historia da arte");
+		
+		al1.livrosAlugados();
 	}
 	
 }

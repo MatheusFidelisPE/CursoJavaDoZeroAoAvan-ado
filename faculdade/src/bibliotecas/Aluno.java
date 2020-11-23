@@ -27,11 +27,7 @@ public class Aluno extends Personagens{
 		livrosAlugados.add(livro);		
 	}
 	public void  devolverLivroAlugado(String livro){
-		for(String livroLista: livrosAlugados) {
-			if(livroLista.equals(livro)) {
-			livrosAlugados.remove(livro);
-			}
-		}
+		livrosAlugados.remove(livro);
 	}
 	public void livrosAlugados() {
 		System.out.println("Livros Alugados: ");
