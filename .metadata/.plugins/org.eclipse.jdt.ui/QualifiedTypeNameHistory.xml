@@ -11,4 +11,6 @@
     <fullyQualifiedTypeName name="oo.hierarquia.desafio.Carro"/>
     <fullyQualifiedTypeName name="oo.hierarquia.desafio.Civic"/>
     <fullyQualifiedTypeName name="oo.encapsulamento.casa2.Pedro"/>
+    <fullyQualifiedTypeName name="oo.composicao.Carro"/>
+    <fullyQualifiedTypeName name="oo.testes.CarroTeste"/>
 </qualifiedTypeNameHistroy>

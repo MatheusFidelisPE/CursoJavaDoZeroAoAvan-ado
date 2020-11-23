@@ -1,0 +1,5 @@
+package oo.hierarquia.desafio;
+
+public interface Luxo {
+
+}

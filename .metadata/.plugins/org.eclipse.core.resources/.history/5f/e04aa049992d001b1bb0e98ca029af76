@@ -1,0 +1,27 @@
+package oo.hierarquia.desafio;
+
+import com.sun.org.apache.xpath.internal.objects.XRTreeFragSelectWrapper;
+
+public class Civic extends Carro  implements Esportivo{
+	
+	public Civic(){
+		super(260);
+		delta = 15;
+	}
+	
+	public boolean acelerar() {
+		super.acelerar();
+		return true;
+	}
+	public void ligarTurbo() {
+		delta = 35;
+	}
+	public void desligarTurbo() {
+		delta = 15;
+	}
+	public String toString() {
+		String fraseImpressao;
+		fraseImpressao = String.format("Velocidade atual Civic: %.0f", velocidadeAtual);
+		return fraseImpressao;
+	}
+}
