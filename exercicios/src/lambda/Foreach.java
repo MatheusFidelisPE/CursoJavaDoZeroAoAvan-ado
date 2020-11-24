@@ -10,5 +10,12 @@ public class Foreach {
 		aprovados.forEach(nome -> System.out.println(nome));
 		
 		aprovados.forEach(System.out::println);
+		
+		aprovados.forEach(nome -> imprimirLinha(nome));
+		aprovados.forEach(Foreach::imprimirLinha);
+		
+	}
+	static void imprimirLinha(String nome) {
+		System.out.println("Meu nome é: " + nome);
 	}
 }
