@@ -26,7 +26,8 @@ public class PaginaSite {
 
 		List<Produto> listagemProdutos = Arrays.asList(p1, p2, p3, p4, p5, p6, p7, p8, p9, p10, p11, p12);
 		Consumer<String> println = (situacaoProduto) -> System.out.println(situacaoProduto);
-
+		Predicate<Produto> filtroDesconto = produto -> produto.desconto >= 50;
+		System.out.println(listagemProdutos.stream().noneMatch(filtroDesconto));
 		/**
 		 * Fazer quatros filtros e maps. Primeiro filter, será desconto Segundo filter,
 		 * será marca Terceiro filter, será preco Quarto filter, será o produto
@@ -43,10 +44,10 @@ public class PaginaSite {
 		case (1):
 			System.out.println("Informe o desconto mínimo: ");
 			filtroDescontoPreco = scan.nextDouble();
-			Predicate<Produto> filtroDesconto = produto -> produto.desconto >= filtroDescontoPreco;
-			Function<Produto, String> ProdutosDesconto = produto -> String.format("%s da %s tem desconto de %.2f%%",
-					produto.nome, produto.marca, produto.desconto * 100);
-			listagemProdutos.stream().filter(filtroDesconto).map(ProdutosDesconto).forEach(println);
+			//Predicate<Produto> filtroDesconto = produto -> produto.desconto >= filtroDescontoPreco;
+			//Function<Produto, String> ProdutosDesconto = produto -> String.format("%s da %s tem desconto de %.2f%%",
+			//		produto.nome, produto.marca, produto.desconto * 100);
+		//	listagemProdutos.stream().filter(filtroDesconto).map(ProdutosDesconto).forEach(println);
 			break;
 		case (2):
 			System.out.println("Informe a marca: ");
