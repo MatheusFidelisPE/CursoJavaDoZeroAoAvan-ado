@@ -1,7 +1,7 @@
 package execacao.personalizadaB;
 
 @SuppressWarnings("serial")
-public class IntervaloIrregularException extends RuntimeException{
+public class IntervaloIrregularException extends Exception{
 
 	private String nomeDoAtributo;
 	

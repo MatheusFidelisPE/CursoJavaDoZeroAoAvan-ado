@@ -1,7 +1,7 @@
 package execacao.personalizadaB;
 
 @SuppressWarnings("serial")
-public class StringVaziaException extends RuntimeException {
+public class StringVaziaException extends Exception {
 	
 private String nomeDoAtributo;
 	

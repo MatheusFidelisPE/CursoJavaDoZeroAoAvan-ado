@@ -26,7 +26,7 @@ public class TesteException {
 		
 		try {
 			Validar.aluno(aluno);
-		} catch (IntervaloIrregularException e) {
+		} catch (StringVaziaException | IntervaloIrregularException e) {
 			System.out.println(e.getMessage());
 		}
 		
