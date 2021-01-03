@@ -10,8 +10,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="forEach"/>
+		<item key="selection" value="tamanho"/>
 		<list key="findhistory">
+			<item value="tamanho"/>
 			<item value="foreach"/>
 			<item value="Stream"/>
 		</list>
