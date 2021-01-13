@@ -1,0 +1,13 @@
+Tipos de erro 
+
+Erros de compilação -> não consegue compilar, não consegue sair do .java para o .class
+	Geralmente são erros de sintaxe
+
+TimeRun Erro -> erros de tempo de execução, ou seja, erro causado enquanto o programa está rodando.
+
+Hierarquia de erro 
+				Throwable
+				 /     \
+			  ERROR  EXCEPTION
+			  		  /     \
+			  		  
